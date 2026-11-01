@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List-Group In Bootstrap </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-secondary">
+
+    <div class="container">
+        
+        <div class="row mt-3">
+            <div class="col-md-6">
+              <ul class="list-group">
+        <li class="list-group-item">Apple</li>
+        <li class="list-group-item">Banana</li>
+        <li class="list-group-item">grapes</li>
+        <li class="list-group-item">Mango</li>
+     </ul>  
+            </div>
+        </div>
+             
+        <!-- list-group with linked item -->
+
+          <div class="row mt-3">
+            <div class="col-md-6">
+             <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action ">Link 1</a>
+                 <a href="#" class="list-group-item list-group-item-action">Link 2</a>
+                  <a href="#" class="list-group-item list-group-item-action">Link 3</a>
+             </div>
+                 </div>
+        </div>
+                   
+         <!-- Active state -->
+
+            <div class="row mt-3">
+            <div class="col-md-6">
+             <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Link 1</a>
+                 <a href="#" class="list-group-item list-group-item-action ">Link 2</a>
+                  <a href="#" class="list-group-item list-group-item-action ">Link 3</a>
+             </div>
+                 </div>
+        </div>
+                   <!-- disable item  -->
+
+                     <div class="row mt-3">
+            <div class="col-md-6">
+             <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action disabled ">Link 1</a>
+                 <a href="#" class="list-group-item list-group-item-action disabled ">Link 2</a>
+                  <a href="#" class="list-group-item list-group-item-action disabled ">Link 3</a>
+             </div>
+                 </div>
+        </div>
+                     <!-- flush and remove border -->
+
+               <div class="row mt-3">
+            <div class="col-md-6">
+              <ul class="list-group list-group-flush">
+        <li class="list-group-item">Apple</li>
+        <li class="list-group-item">Banana</li>
+        <li class="list-group-item">grapes</li>
+        <li class="list-group-item">Mango</li>
+     </ul>  
+            </div>
+        </div>
+
+        <!-- Numbered list groups -->
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+              <ul class="list-group list-group-numbered">
+        <li class="list-group-item">Apple</li>
+        <li class="list-group-item">Banana</li>
+        <li class="list-group-item">grapes</li>
+        <li class="list-group-item">Mango</li>
+     </ul>  
+            </div>
+        </div>
+
+        <!-- horizontal list group -->
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+              <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">Apple</li>
+        <li class="list-group-item">Banana</li>
+        <li class="list-group-item">grapes</li>
+        <li class="list-group-item">Mango</li>
+     </ul>  
+            </div>
+        </div>
+
+        <!-- contextual classes -->
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+              <ul class="list-group ">
+        <li class="list-group-item  list-group-item-success ">Apple</li>
+        <li class="list-group-item list-group-item-primary">Banana</li>
+        <li class="list-group-item list-group-item-secondary">Grapes</li>
+        <li class="list-group-item list-group-item-danger">Mango</li>
+        <li class="list-group-item list-group-item-warning">Apricot</li>
+        <li class="list-group-item list-group-item-info">Peach</li>
+     </ul>  
+            </div>
+        </div>
+
+        <!-- link items in group list -->
+
+             <div class="row mt-3">
+            <div class="col-md-6">
+             <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Link 1</a>
+                 <a href="#" class="list-group-item list-group-item-action  list-group-item-primary">Link 2</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Link 3</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Link 4</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Link 5</a>
+                  <a href="#" class="list-group-item list-group-item-action list-group-item-info">Link 6</a>
+             </div>
+                 </div>
+        </div>
+
+        <!--  list group badges -->
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+              <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-item">Inbox <span class="badge bg-primary  rounded-pill">10</span></li>
+        <li class="list-group-item d-flex justify-content-between align-item ">Sent Items<span class="badge bg-primary rounded-pill">5</span></li>
+        <li class="list-group-item d-flex justify-content-between align-item ">Junk<span class="badge bg-primary rounded-pill">15</span></li>
+        <li class="list-group-item d-flex justify-content-between align-item ">Spam Items<span class="badge bg-primary rounded-pill">100</span></li>
+     </ul>  
+            </div>
+        </div>
+             
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
