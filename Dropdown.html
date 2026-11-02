@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown in Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+               <!-- dropdown button by using div -->
+        <div class="dropdown mt-3 mb-5">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <div class="dropdown-menu">
+         <a href="#" class="dropdown-item">Link 1</a>
+         <a href="#" class="dropdown-item">Link 2</a>
+         <a href="#" class="dropdown-item">Link 3</a>
+            </div>
+        </div>
+    
+                <!-- dropdown button by using ul -->
+
+    <div class="dropdown mb-5">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+            </ul>
+        </div>
+
+             <!-- dropdoen divider -->
+
+                   <div class="dropdown mb-5">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li><hr class="dropdown-divider"></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li><hr class="dropdown-divider"></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+            </ul>
+        </div>
+
+        <!-- dropdoen header-->
+
+                   <div class="dropdown mb-5">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li><h5 class="dropdown-header">Shirts</h5></li>
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li><h5 class="dropdown-header">Shoes</h5></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+            </ul>
+        </div>
+
+        <!-- Active Items -->
+
+<div class="dropdown mb-5">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li><h5 class="dropdown-header">Shirts</h5></li>
+                <li>
+         <a href="#" class="dropdown-item active">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li><h5 class="dropdown-header">Shoes</h5></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+            </ul>
+        </div>
+
+             <!--  Disable items -->
+
+             <div class="dropdown mb-5">
+            <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li><h5 class="dropdown-header">Shirts</h5></li>
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item disabled">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li><h5 class="dropdown-header">Shoes</h5></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item disabled">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+            </ul>
+        </div>
+
+        <!-- dropdown position -->
+
+        <div class="dropdown  dropend mb-5">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li><h5 class="dropdown-header">Shirts</h5></li>
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li><h5 class="dropdown-header">Shoes</h5></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+            </ul>
+        </div>
+
+
+        <div class="dropdown dropstart float-end mb-5">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li><h5 class="dropdown-header">Shirts</h5></li>
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li><h5 class="dropdown-header">Shoes</h5></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+            </ul>
+        </div>
+
+        <!-- dropdoen button right side -->
+
+        <div class="dropdown mb-5">
+            <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Dropdown button Dropdown button Dropdown button </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><h5 class="dropdown-header">Shirts</h5></li>
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li><h5 class="dropdown-header">Shoes</h5></li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+            </ul>
+        </div>
+
+         <!-- dropup button by using div -->
+
+        <div class="dropup mt-3 mb-5">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <div class="dropdown-menu">
+         <a href="#" class="dropdown-item">Link 1</a>
+         <a href="#" class="dropdown-item">Link 2</a>
+         <a href="#" class="dropdown-item">Link 3</a>
+            </div>
+        </div>
+    
+                <!-- dropup button by using ul -->
+
+    <div class="dropup mb-5">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+            </ul>
+        </div>
+
+        <!-- dropdown text -->
+
+        <div class="dropdown mb-5">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+            <ul class="dropdown-menu">
+                <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+           <span class="dropdown-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ?</span>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item-text">Link 6</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 7</a>
+         </li>
+            </ul>
+        </div>
+
+        <!--  group button with dropdown -->
+
+          <div class="btn-group mb-5">
+            <button type="button" class="btn btn-primary">Button 1</button>
+            <button type="button" class="btn btn-success">Button 2</button>
+            <div class="btn-group">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">Button 3</button>
+            <ul class="dropdown-menu">
+               <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+           <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 7</a>
+         </li>
+            </ul>
+            </div>
+            <button type="button" class="btn btn-danger">Button 4</button>
+            <button type="button" class="btn btn-dark">Button 5</button>
+          </div>
+
+          <!-- button group vertical -->
+
+             <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Button 1</button>
+            <button type="button" class="btn btn-success">Button 2</button>
+            <div class="btn-group">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">Button 3</button>
+            <ul class="dropdown-menu">
+               <li>
+         <a href="#" class="dropdown-item">Link 1</a>
+         </li>
+         <li>
+           <a href="#" class="dropdown-item">Link 2</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 3</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 4</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 5</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 6</a>
+         </li>
+         <li>
+         <a href="#" class="dropdown-item">Link 7</a>
+         </li>
+            </ul>
+            </div>
+            <button type="button" class="btn btn-danger">Button 4</button>
+            <button type="button" class="btn btn-dark">Button 5</button>
+          </div>
+
+
+
+
+
+</div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
