@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+     <!--  Accordion with data-bs-parent -->
+
+           <div class="mb-5">
+        <div id="accordion">
+
+            <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse1" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 1
+                </a>
+               </div>
+               <div id="collapse1" class="collapse show"   data-bs-parent="#accordion">
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+
+               </div>
+            </div>
+             <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse2" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 2
+                </a>
+               </div>
+               <div id="collapse2" class="collapse"  data-bs-parent="#accordion">
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+
+               </div>
+            </div>
+             <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse3" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 3
+                </a>
+               </div>
+               <div id="collapse3" class="collapse"  data-bs-parent="#accordion">
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+
+               </div>
+            </div>
+             <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse4" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 4
+                </a>
+               </div>
+               <div id="collapse4" class="collapse"  data-bs-parent="#accordion">
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+               </div>
+            </div>
+        </div>
+        </div>
+        
+                <!--  Accordion without data-bs-parent -->
+             
+           <div class="mb-4">
+        <div id="accordion">
+
+            <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse1" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 1
+                </a>
+               </div>
+               <div id="collapse1" class="collapse">
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+
+               </div>
+            </div>
+             <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse2" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 2
+                </a>
+               </div>
+               <div id="collapse2" class="collapse">
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+
+               </div>
+            </div>
+             <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse3" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 3
+                </a>
+               </div>
+               <div id="collapse3" class="collapse"  >
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+
+               </div>
+            </div>
+             <div class="card">
+
+               <div class="card-header">
+                <a href="#collapse4" data-bs-toggle="collapse" class="collapsed btn">Accordion Item No: 4
+                </a>
+               </div>
+               <div id="collapse4" class="collapse ">
+                <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis illum cumque placeat similique eos officia porro nostrum ut perspiciatis veniam maiores odio optio sint magnam, rem at provident quasi dicta vero corporis dolores. Distinctio?</div>
+               </div>
+            </div>
+        </div>
+           </div>
+
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
