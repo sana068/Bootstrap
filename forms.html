@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        
+        <div class="row border mb-5 p-4">
+            <div class="col-sm-6">
+                <form>
+                    <label class="form-label">Enter Name:</label>
+                    <input type="text" class="form-control">
+                    <label class="form-label">Enter Email:</label>
+                    <input type="email" class="form-control">
+                    <label class="form-label">Enter Age:</label>
+                    <input type="number" class="form-control">
+                    <label class="form-label">Enter Birth Date:</label>
+                    <input type="number" class="form-control">
+                    <label class="form-label">Feedback </label>
+                    <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Submit" class="btn btn-primary mt-3">
+
+                </form>
+            </div>
+
+        </div>
+
+        <!-- inline form -->
+
+        <div class="row p-4 border mb-5">
+            <div class="col-sm-6">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" placeholder="Enter Name" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="email" placeholder="Enter Email" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="number" placeholder="Enter Age" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="number" placeholder="Enter Birth Date" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col">
+                            <input type="text" placeholder="Enter Name" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="email" placeholder="Enter Email" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="number" placeholder="Enter Age" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="number" placeholder="Enter Birth Date" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col">
+                            <input type="text" placeholder="Enter Name" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="email" placeholder="Enter Email" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="number" placeholder="Enter Age" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="number" placeholder="Enter Birth Date" class="form-control">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- form control size -->
+
+        <div class="row p-4 border mb-5 ">
+            <div class="col-sm-4 mt-3">
+                <input type="text" placeholder="Enter Name" class="form-control form-control-lg">
+                <br>
+                <input type="text" placeholder="Enter Name" class="form-control">
+                <br>
+                <input type="text" placeholder="Enter Name" class="form-control form-control-sm">
+            </div>
+        </div>
+
+        <!-- disabled and readonly form -->
+
+        <div class="row p-4 border mb-5 ">
+            <div class="col-sm-4 mt-3">
+                <input type="text" placeholder="Enter Name" class="form-control "><br>
+                <input type="text" placeholder="Enter Name" class="form-control" disabled><br>
+                <input type="text" placeholder="Enter Name" class="form-control" value=" My overthinking on at its peak"
+                    readonly>
+            </div>
+        </div>
+
+        <!-- plain text form -->
+
+              <div class="row p-4 border mb-5 ">
+            <div class="col-sm-4 mt-3">
+                <input type="text" placeholder="Enter Name" class="form-control"><br>
+                <input type="text" placeholder="Enter Name" class="form-control form-control-plaintext"><br>
+            </div>
+        </div>
+             
+        <!-- color picker -->
+
+        <div class="row p-4 border mb-5 ">
+            <div class="col-sm-4 mt-3">
+                <input type="color" class="form-control form-control-color"><br>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
