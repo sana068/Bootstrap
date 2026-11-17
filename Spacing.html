@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacing Classes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        #myDiv{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border: 10px red ridge;
+        }
+       #myDiv2{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border: 10px red ridge;
+        }
+       body{
+        background-color:silver;
+       }
+    </style>
+</head>
+<body>
+    <div class="container" >
+
+        <!-- margin spacing -->
+
+    <div style="border: 15px black ridge;">
+      <div id="myDiv" class="mt-5 mb-5 ms-5">
+        <h3>Eloura</h3>
+      </div>
+      <div id="myDiv" class="float-end me-5 mt-4">
+        <h3>Eloura</h3>
+      </div>
+        </div><br><br><br><br><br><br><br><br><br>
+
+               <!-- padding spacing -->
+
+       <div id="myDiv2" class=" pt-5 ps-5 pb-5">
+        <h3>Eloura</h3>
+      </div><br>
+
+                <!--  aspect ratio -->
+
+                <div class="ratio ratio-1x1">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/gLAKdTiQRwI?si=s-Ljsj2tHlqb4Com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div><br>
+
+                 <div class="ratio ratio-4x3">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gLAKdTiQRwI?si=s-Ljsj2tHlqb4Com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div><br>
+
+                 <div class="ratio ratio-16x9">
+                         <iframe width="560" height="315" src="https://www.youtube.com/embed/gLAKdTiQRwI?si=s-Ljsj2tHlqb4Com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div><br>
+
+                 <div class="ratio ratio-21x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gLAKdTiQRwI?si=s-Ljsj2tHlqb4Com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div><br>
+
+                       <!--  close icon -->
+
+                       <div style="border: 15px black ridge;">
+                         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                         </div>
+      
+                          <!-- shadows -->
+      
+                 <div class="shadow mt-4 p-4 mb-4 bg-light">
+                      This Is Shadow Effect
+                 </div>
+                  <div class="shadow-sm mt-4 p-4 mb-4 bg-light">
+                      This Is Shadow Effect
+                 </div>
+                  <div class="shadow-lg mt-4 p-4 mb-4 bg-light">
+                      This Is Shadow Effect
+                 </div>
+
+                 
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+  <!-- margin and padding size 0 to 5 
+  margin and padding x = right , left  
+  margin and padding y = top , bottom  -->
+
+                   <!-- RATIO ASPECT  
+                   • ratio ratio-1x1
+                   • ratio ratio-4x3
+                   • ratio ratio-16x9
+                   • ratio ratio-21x9 -->

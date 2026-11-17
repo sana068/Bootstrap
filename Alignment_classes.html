@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment Classes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        span{
+            display: inline-block;
+            height: 80px;
+            width: 80px;
+            margin: 8px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+             <!-- float and clearflix -->
+
+            <div class="clearfix">
+                 <span class="float-start">LEFT</span>
+                <span class="float-end">RIGHT</span>
+            </div>
+               
+            <!-- Responsive floats -->
+                    
+            <span class="float-sm-start">LEFT</span>
+            <span class="float-sm-end">RIGHT</span><br><br><br><br>
+
+             <span class="float-md-start">LEFT</span>
+            <span class="float-md-end">RIGHT</span><br><br><br><br>
+
+             <span class="float-lg-start">LEFT</span>
+            <span class="float-lg-end">RIGHT</span><br><br><br><br>
+
+            <span class="float-xl-start">LEFT</span>
+            <span class="float-xl-end">RIGHT</span><br><br><br><br>
+
+            <span class="float-xxl-start">LEFT</span>
+            <span class="float-xxl-end">RIGHT</span><br><br><br><br>
+
+                <!-- center align -->
+
+                 <div class="mx-auto bg-primary"style="width:100px;">Center</div>
+                 <br>
+
+                   <!-- width classes -->
+
+                 <div class="bg-primary w-25">Center</div><br>
+                  <div class="bg-primary w-50">Center</div><br>
+                 <div class="bg-primary w-75">Center</div><br>
+                <div class="bg-primary w-100">Center</div><br>
+                <div class="bg-primary mw-auto">Center</div><br>
+                <div class="bg-primary mw-100">Center</div><br>
+
+                       <!-- height classes -->
+
+                <div style="height:200px; background-color:silver;">
+                 <div class=" d-inline-block bg-primary h-25">HEIGHT</div>
+                  <div class=" d-inline-block bg-primary h-50">HEIGHT</div>
+                 <div class=" d-inline-block bg-primary h-75">HEIGHT</div>
+                <div class=" d-inline-block bg-primary h-100">HEIGHT</div>
+                <div class=" d-inline-block bg-primary mh-auto">HEIGHT</div>
+                <div class=" d-inline-block bg-primary mh-100">HEIGHT</div>
+
+                </div>
+               
+                <!-- Vertical align -->
+
+            <table style="height: 100px;" class="table table-bordered mt-4">
+            <tbody>
+                <tr>
+                    <td class="align-baseline">baseline</td>
+                     <td class="align-top">top</td>
+                      <td class="align-middle">middle</td>
+                       <td class="align-bottom">bottom</td>
+                        <td class="align-text-top">text-top</td>
+                </tr>
+            </tbody>
+                </table>       
+
+                      <!-- visibility -->
+
+                 <span class="bg-primary w-25 visible">LEFT</span><br>
+                <span class="bg-primary w-25 invisible">LEFT</span>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+            <!-- 
+              sm(>=576px)
+              md(>=768px)
+              lg(>=992px)
+              xl(>=1200px)
+              xxl(>=1400px)
+            -->
